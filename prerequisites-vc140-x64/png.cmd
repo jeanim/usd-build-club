@@ -10,7 +10,7 @@ if not exist "build\libpng" ^
 mkdir build\libpng
 
 if not exist "libpng\CMakeLists.txt" ^
-git clone git://github.com/glennrp/libpng.git
+git clone https://github.com/glennrp/libpng.git
 
 cd libpng
 git pull

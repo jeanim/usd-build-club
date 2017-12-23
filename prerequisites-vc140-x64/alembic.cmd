@@ -9,7 +9,7 @@ cd prereq
 echo "Retrieving Alembic at version 1.6.1 for compatibility"
 
 if not exist "alembic/.git/config" ^
-git clone git://github.com/alembic/alembic.git
+git clone https://github.com/alembic/alembic.git
 
 cd alembic
 git pull

@@ -20,6 +20,7 @@ index 0a742be..e07d6ca 100644
              "${MAYA_LOCATION}"
              "$ENV{MAYA_LOCATION}"
              "/Applications/Autodesk/maya2017/Maya.app/Contents"
+-            "/Applications/Autodesk/maya2016/Maya.app/Contents"
 -            "/Applications/Autodesk/maya2015/Maya.app/Contents"
 -            "/Applications/Autodesk/maya2014/Maya.app/Contents"
 -            "/Applications/Autodesk/maya2013.5/Maya.app/Contents"

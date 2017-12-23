@@ -25,10 +25,10 @@ REM    -DPTEX_INCLUDE_DIR=C:\path\to\ptex           ^
 REM    -DOIIO_BASE_DIR=C:\path\to\openimageio       ^
 REM    -DBOOST_ROOT=C:\path\to\boost                ^
 
-cmake ..\..\..\..\USD ^
+cmake ..\..\..\USD ^
       -G "Visual Studio 14 2015 Win64" ^
       -DPXR_VALIDATE_GENERATED_CODE=OFF ^
-      -DPXR_BUILD_MAYA_PLUGIN=0 ^
+      -DPXR_BUILD_MAYA_PLUGIN=1 ^
       -DPXR_BUILD_KATANA_PLUGIN=0 ^
       -DPXR_BUILD_ALEMBIC_PLUGIN=1 ^
       -DPXR_ENABLE_HDF5_SUPPORT=0 ^

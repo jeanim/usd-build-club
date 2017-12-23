@@ -10,7 +10,7 @@ mkdir prereq
 cd prereq
 
 IF NOT EXIST "openexr\README" ^
-git clone git://github.com/meshula/openexr.git
+git clone https://github.com/meshula/openexr.git
 
 cd openexr
 git pull
